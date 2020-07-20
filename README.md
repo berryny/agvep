@@ -93,6 +93,50 @@ Microsoft Edge
 
 ![](https://cdn.glitch.com/bc2980dc-21e3-43fc-8c6c-5e88354fe0de%2Fkeyboard-commands.jpg?v=1583946028507)
 
+The 104-key US QWERTY layout
+
+### Keyboard Symbols
+
+#### HTML
+
+- `<!-- my comment statement in HTML -->` HTML Comment
+- `!` exclamation mark
+- `<` less than
+- `>` greater than
+- `/` backslash
+- `=` equal
+- `' '` single quote
+- `" "` double quote
+- `-` dash / hyphen
+- `_` underscore
+- `;` semicolon
+
+#### CSS
+
+- `/* my comment statement in CSS */` CSS Comment
+- `@` the at sign used for `@import 'normalize.css';`
+- `(` open parenthesis
+- `)` close parenthesis
+- `.` period
+- `#` **pound / number sign** or hashtag
+- `{ }` curly brace / bracket
+- `{` open curly brace / open bracket
+- `}` close curly brace / close bracket
+- `-` dash / hyphen
+- `_` underscore
+- `' '` single quote
+- `" "` double quote
+- `:` colon
+- `;` semicolon
+
+### Keyboard shortcuts for Windows
+
+Applies to: [Windows 10 Windows 8.1 Windows 7](https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts)
+
+### Keyboard shortcuts for Mac
+
+By pressing certain key combinations, you can do things that normally need a mouse, trackpad, or other input device. [Learn more](https://support.apple.com/en-us/HT201236)
+
 ## HTML
 
 HTML stands for _HyperText Markup Language_. Developed by scientist Tim Berners-Lee in 1990, HTML is the "hidden" code that helps us communicate with others on the World Wide Web (WWW).
@@ -101,7 +145,7 @@ HTML tags : HTML documents are described by HTML tags. Each HTML tag describes d
 
 - The text between `<html> and </html>` describes an HTML document
 - The text between `<head> and </head>` provides information about the document The text between `<title> and </title>` provides a title for the document
-- The text between <body> and </body> describes the visible page content
+- The text between `<body> and </body>` describes the visible page content
 - The text between `<h1> and </h1>` describes a heading
 - The text between `<p> and </p>` describes a paragraph
 
