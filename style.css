@@ -3,9 +3,33 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: #fff !important; /* #fff = white */
 }
 
 h1 {
   font-style: italic;
   color: red;
+}
+
+div {
+  border: 2em dashed red;
+}
+
+/* class="youtube" */
+.youtube, .dotted {
+  border: 1em dotted purple;
+}
+
+/* class="spacing" */
+.spacing {
+/*   bubble wrap: top right bottom left; */
+  padding: 12px 30px 8px 5px;
+/*   tape: thickness(top right bottom left) style color; */
+  border: 1em dashed pink;
+/*   gift box/bag: top right bottom left; */
+  margin: 20px 2px 50px 69px;
+}
+
+.center {
+  text-align: center;
 }

@@ -25,12 +25,72 @@
     />
 
     <title>Document - HTML</title>
+    
+<!--     External CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+
+    <!--     Internal CSS -->
+    <style>
+      body {
+        font-family: Tahoma, Geneva, sans-serif;
+      }
+      a {
+        color: brown;
+        text-decoration: none;
+      }
+      a:hover {
+        color: red;
+        text-decoration: underline;
+      }
+      h2 {
+        color: green;
+        border-bottom: 1px solid red;
+      }
+      h1 {
+        color: blue;
+        background-color: yellow;
+      }
+      img {
+        width: 30%;
+        border: 5px dashed orange;
+      }
+      h3 {
+        text-align: right !important;
+      }
+    </style>
   </head>
-  <body>
-    <h3>
+  <body style="background-color: #00ffd0;">
+    <div class="youtube spacing">
+      <iframe
+        width="100%"
+        height="500"
+        src="https://www.youtube.com/embed/0sZAyMzuZpE"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    
+    <div>
+      <p class="center">DIV Two</p>
+    </div>
+    
+    <div>
+      DIV Three
+    </div>
+    
+<!-- Inline CSS -->
+    <h3 style="color:blue; text-align:center; font-family:'Comic Sans MS', cursive, sans-serif;" >
       Youth Code the Future
     </h3>
-    <h2>
+    <h3>
+      Heading 3
+    </h3>
+
+    <h2
+      style="font-style: italic; text-transform: uppercase; font-weight: normal;"
+    >
       Welcome to:
     </h2>
     <h1>
@@ -41,10 +101,23 @@
       ><img src="https://picsum.photos/800/300" alt="placeholder" width="100%"
     /></a>
 
-    <h3>
+    <h4>
       Introduction
-    </h3>
-    <p>
+    </h4>
+
+    <ul>
+      <li>Rice</li>
+      <li>Bread</li>
+    </ul>
+
+    <ol>
+      <li>Wakeup</li>
+      <li>Shower</li>
+      <li>Put on Clothes</li>
+      <li>Go to Class</li>
+    </ol>
+
+    <p class="dotted">
       Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy
       nibh euismod tincidunt ut laoreetdolore magna aliquam erat volutpat. Ut
       wisi enim ad minim veniam, quis nostrud exerci tation ullamcorpersuscipit
@@ -52,6 +125,7 @@
       iriure dolor in hendrerit invulputate velit esse molestie consequat, vel
       illum dolore eu feugiat nulla facilisis at vero eros et accumsan.
     </p>
+    <p>Click <a href="http://youtube.com">here </a>to go to YouTube</p>
 
     <h3>
       Youth Code the Future
@@ -75,6 +149,7 @@
       iriure dolor in hendrerit invulputate velit esse molestie consequat, vel
       illum dolore eu feugiat nulla facilisis at vero eros et accumsan.
     </p>
+    <p>Click <a href="http://youtube.com">here </a>to go to YouTube</p>
     <h3>
       Dolor sit amet
     </h3>
